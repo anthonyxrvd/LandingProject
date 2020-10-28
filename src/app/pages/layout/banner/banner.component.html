@@ -1,0 +1,6 @@
+<ngb-carousel *ngIf="banners" [showNavigationArrows]="showNavigationArrows"
+[showNavigationIndicators]="showNavigationIndicators">
+  <ng-template ngbSlide *ngFor="let banner of banners">
+      <img [src]="'/assets/img/banners/'+ banner" class="img-banner">
+  </ng-template>
+</ngb-carousel>

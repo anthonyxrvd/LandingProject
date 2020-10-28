@@ -1,0 +1,24 @@
+.title-brands {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.brand {
+  text-align: center;
+  padding: 0 5px;
+
+  .text-brand {
+      background-color: #dfdfe4;
+      padding: 18px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+  }
+
+  .text-brand:hover {
+      background-color: black;
+      color: #dfdfe4;
+  }
+}

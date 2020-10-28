@@ -1,0 +1,29 @@
+.footer {
+  background-color: #dfdfe4;
+
+  .logo {
+      height: 50px;
+      // display: inline-block;
+  }
+
+  ul {
+      list-style: none;
+
+      li {
+          font-size: 14px;
+          color: black;
+      }
+  }
+}
+
+.footer-description {
+  background-color: #b4b4b5;
+
+  p {
+      color: black;
+      margin: 0px;
+      padding: 5px;
+      text-align: center;
+      font-size: 13px;
+  }
+}
